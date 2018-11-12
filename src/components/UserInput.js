@@ -44,4 +44,11 @@ class UserInput extends Component {
   }
 }
 
+// const mapStateToProps = (state) => {
+//   return { 
+//     username: state.username,
+//     hometown: state.hometown
+//   }
+// }
+
 export default connect()(UserInput);
